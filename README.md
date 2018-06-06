@@ -12,7 +12,7 @@ It does this by analyzing the root folder.
 - Getting the sitemap using the content of the root folder
 - Creating a search engine valid sitemap in xml format
 
-# How to use it
+# Usage
 ###### For the next steps you need to have git installed!
 Clone the latest release to your local machine by cloning or typing in your terminal:
 ```bash
