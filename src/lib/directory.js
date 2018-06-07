@@ -1,16 +1,10 @@
 #!/bin/node
-// v0.1.1
-let fs = require('fs');
-
-
-if (process.argv.length <= 2) {
-    console.log("\nUsage: " + __filename + " <root-dir-path>\n");
-    process.exit(-1);
-}
-
-let printTree = (path) => {
+// v0.1.2
+const fs = require('fs');
+const x = "x"
+function echo(path) {
     fs.readdir(path, (err, items) => {
-        while (items.length != 0) {
+        // while (items.length != 0) {
             for (let i=0; i<items.length; i++) {
                 let file = path + '/' + items[i]
                 fs.stat(file, function(f) {
@@ -25,9 +19,8 @@ let printTree = (path) => {
                     }
                 }(file));
             }
-        }
+        // }
     });
 }
 
-let path = process.argv[2];
-printTree(path)
+module.exports.echo = echo;
