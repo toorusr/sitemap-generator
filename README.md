@@ -1,6 +1,7 @@
 # Local Sitemap generator
 > A tool for generating a sitemap locally.
 
+![](https://img.shields.io/badge/status-work_in_progress-red.svg)
 # Usecase
 ###### This small project is build originally for the [cdweb1801 of the CodeDesignInitiative](https://github.com/CodeDesignInitiative/cdweb1801).
 It is also usefull for everyone who does not want to make an api request to servers like [codepunkers api](https://codepunker.com/tools/sitemap-generator).
