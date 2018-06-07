@@ -1,0 +1,27 @@
+{
+  "name": "sitemap-lcl",
+  "version": "0.1.0",
+  "description": "A tool for generating a sitemap locally.",
+  "main": "src/bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toorusr/sitemap-generator.git"
+  },
+  "keywords": [
+    "sitemap",
+    "generator",
+    "website"
+  ],
+  "author": "Toorusr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toorusr/sitemap-generator/issues"
+  },
+  "homepage": "https://github.com/toorusr/sitemap-generator#readme",
+  "dependencies": {
+    "meow": "^5.0.0"
+  }
+}
