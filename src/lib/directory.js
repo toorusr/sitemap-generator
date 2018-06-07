@@ -2,7 +2,7 @@
 // v0.1.2
 const fs = require('fs');
 const x = "x"
-function echo(path) {
+function tree(path) {
     fs.readdir(path, (err, items) => {
         // while (items.length != 0) {
             for (let i=0; i<items.length; i++) {
@@ -23,4 +23,4 @@ function echo(path) {
     });
 }
 
-module.exports.echo = echo;
+module.exports.tree = tree;
